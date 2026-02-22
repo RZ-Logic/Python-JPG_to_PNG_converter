@@ -21,18 +21,19 @@ Run the script from your command line terminal. The script requires two argument
 
 General Syntax
 ```Bash```
-`python JgptoPNGconverter.py <source_path> <destination_folder>`
+```python JgptoPNGconverter.py <source_path> <destination_folder>```
 
 1. Converting a Full Folder
 To convert all .jpg files within a specific folder:
 
 ```Bash```
-`python JgptoPNGconverter.py "C:\Images\Input Folder" "C:\Images\Output Folder"`
+```python JgptoPNGconverter.py "C:\Images\Input Folder" "C:\Images\Output Folder"```
+
 2. Converting a Single File
 To convert just one specific image:
 
 ```Bash```
-`python JgptoPNGconverter.py "C:\Images\Input Folder\photo.jpg" "C:\Images\Output Folder"`
+```python JgptoPNGconverter.py "C:\Images\Input Folder\photo.jpg" "C:\Images\Output Folder"```
 
 ⚠️ Important Note on File Paths
 If your folder or file names contain spaces (e.g., Image Processing), you must wrap the paths in double quotes so the command line interprets the path correctly.
